@@ -1,0 +1,126 @@
+header {
+	background-color: #F4FEFF;
+	display: grid;
+	place-items: center;
+}
+
+svg {
+	height: 10rem;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	width: 100%;
+	background-color: #bbe1ff;
+}
+
+h1, h2 {
+	font-family: Lora;
+}
+
+p, a {
+	font-family: Roboto;
+}
+
+.summary {
+	display: grid;
+	place-items: center;
+}
+
+.summary p, .target-user p, .process p, .reflection p {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.target-user {
+	display: grid;
+	place-items: center;
+}
+
+.process {
+	display: grid;
+	place-items: center;
+}
+
+.process h2, .process h2 {
+	text-align: center;
+}
+
+.visual-design {
+	display: grid;
+	place-items: center;
+}
+
+.prototype {
+	display: grid;
+	place-items: center;
+}
+
+figure {
+	display: grid;
+	place-items: center;
+}
+
+img {
+	width: 100%;
+}
+
+video {
+	box-shadow: 5px 5px 5px #93b3cc;
+}
+
+.reflection {
+	display: grid;
+	place-items: center;
+}
+
+@media only screen and (min-width: 40em) {
+
+.problem_solution {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+}
+
+.proh {
+	grid-row: 1;
+}
+
+.prop {
+	grid-row: 2;
+}
+
+.solh {
+	grid-row: 1;
+}
+
+.solp {
+	grid-row: 2;
+
+}
+
+img {
+	width: 80%;
+}
+
+.challenges_successes {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+}
+
+.chalp {
+	grid-column: 1;
+}
+
+.such {
+	grid-row: 1;
+}
+
+.sucp {
+	grid-column: 2;
+}
+
+	}
